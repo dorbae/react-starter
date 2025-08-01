@@ -4,7 +4,7 @@ import Detail from './routers/Detail';
 
 function MovieApp() {
 
-    return <Router>
+    return <Router basename="/react-starter">
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/movie/:id" element={<Detail />} />
